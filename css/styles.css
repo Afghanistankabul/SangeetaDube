@@ -1,0 +1,279 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-image: url(..//images/backgroundPic.png);
+  background-color: #2f3035;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.cv{
+background-color: #2f30353b;
+width: 41%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-style: italic;
+font-size: large;
+}
+.cv1{
+  font-style: italic;
+  font-size: xx-large;
+  flex-wrap: wrap;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Page-specific styles */
+header {
+  background-color: #0088cc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+main h3 {
+  font-size: 24px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills table {
+  width: 45%;
+}
+
+.skills td:first-child {
+  padding-right: 20px;
+}
+
+
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+ul {
+  list-style: square;
+  padding-left: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-links {
+  background-color: #5168db6e;
+  width:1000px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hobies {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.hobies ol {
+  list-style: none;
+  padding: 0;
+}
+
+.hobies li {
+  font-size: 24px;
+  margin: 40px 0;
+}
+
+.hobies img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.page-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.page-links li {
+  margin: 0 10px;
+}
+
+.page-links li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-links li a:hover {
+  color: #0077b5;
+}
+
+
+/* Styles for contact page */
+
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+.contact-details {
+  
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+
+.detailsDiv{
+  background-color:#2f30350c;
+  font-size: x-large;
+  font-style: italic;
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #0c5905e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2f30353b;
+}
+
+
+
